@@ -29,4 +29,4 @@
       RS8   `8'       `8'            RS       RS
 ```
 
-graphic design and programming by Reid Surmeier
+      (graphic design and programming by Reid Surmeier)
