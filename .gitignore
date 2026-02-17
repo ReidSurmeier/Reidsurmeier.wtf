@@ -11,6 +11,9 @@ out/
 .env.production.local
 .env.development.local
 
+# large media
+*.mov
+
 # misc
 .DS_Store
 *.pem
