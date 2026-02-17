@@ -29,18 +29,4 @@
       RS8   `8'       `8'            RS       RS
 ```
 
-graphic design and programming by [reidsurmeier.wtf](https://reidsurmeier.wtf) | [bänziger-hug.com](https://bänziger-hug.com)
-
----
-
-## reidsurmeier.wtf
-
-A [Next.js](https://nextjs.org) project.
-
-### Getting Started
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+graphic design and programming by Reid Surmeier
