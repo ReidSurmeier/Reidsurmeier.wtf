@@ -1,7 +1,8 @@
 {
-  "name": "personalwebsite",
+  "name": "reidsurmeier.wtf",
   "version": "0.1.0",
   "private": true,
+  "author": "Reid Surmeier <rsurmeie@risd.edu>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
