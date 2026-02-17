@@ -2173,8 +2173,8 @@ export default function GalleryPage({
           }}
         >
           <div style={{ display: "flex", gap: 20 }}>
-            <TypewriterText delay={100} speed={50}>{inputLabel}</TypewriterText>
-            <TypewriterText delay={300} speed={40}>{title}</TypewriterText>
+            <span>{inputLabel}</span>
+            <span>{title}</span>
           </div>
         </div>
       )}
