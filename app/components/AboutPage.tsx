@@ -153,8 +153,7 @@ export default function AboutPage({ onClose, lang }: { onClose: () => void; lang
           paddingRight: "clamp(40px, 8vw, 160px)",
           overflowY: "auto",
           opacity: contentVisible ? 1 : 0,
-          transform: contentVisible ? "translateY(0)" : "translateY(6px)",
-          transition: "opacity 0.8s ease, transform 0.8s ease",
+          transition: "opacity 0.8s ease",
         }}
       >
         {/* Bio text */}

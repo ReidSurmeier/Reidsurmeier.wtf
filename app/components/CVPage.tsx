@@ -204,17 +204,7 @@ const ICON_SIZE = 14;
 
 // Character-level hover animation (matching homepage style)
 function AnimatedText({ children }: { children: string }) {
-  const handleCharEnter = (e: React.MouseEvent<HTMLSpanElement>) => {
-    const el = e.currentTarget;
-    const y = (Math.random() * 5 - 2).toFixed(1);
-    el.style.transform = `translateY(${y}px)`;
-    el.style.fontSize = "1.2em";
-    el.style.transition = "transform 0.6s cubic-bezier(.6,0,.1,1), font-size 0.6s cubic-bezier(.6,0,.1,1)";
-    setTimeout(() => {
-      el.style.fontSize = "";
-      el.style.transform = "translateY(0)";
-    }, 300);
-  };
+  const handleCharEnter = (_e: React.MouseEvent<HTMLSpanElement>) => {};
 
   const segments = children.split(/(\s+)/);
   let globalIdx = 0;
@@ -604,8 +594,7 @@ export default function CVPage({ onClose, lang = "en" }: { onClose: () => void; 
           paddingLeft: isMobile ? 0 : 30,
 
           opacity: showIntro ? 1 : 0,
-          transform: showIntro ? "translateY(0)" : "translateY(6px)",
-          transition: "opacity 0.5s ease, transform 0.5s ease",
+          transition: "opacity 0.5s ease",
           flexWrap: "wrap",
         }}
       >

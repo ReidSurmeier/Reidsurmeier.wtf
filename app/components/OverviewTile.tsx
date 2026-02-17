@@ -55,8 +55,7 @@ const OverviewTile = forwardRef<HTMLDivElement, {
         textDecoration: "none",
         border: "none",
         opacity: visible ? 1 : 0,
-        transform: visible ? "translateY(0)" : "translateY(6px)",
-        transition: "opacity 0.6s ease, transform 0.4s ease",
+        transition: "opacity 0.6s ease",
       }}
     >
       <div

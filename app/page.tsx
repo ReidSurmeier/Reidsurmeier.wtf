@@ -112,17 +112,7 @@ function AnimatedText({ children }: { children: string }) {
 
   useEffect(() => {}, [children]);
 
-  const handleCharEnter = (e: React.MouseEvent<HTMLSpanElement>) => {
-    const el = e.currentTarget;
-    const y = (Math.random() * 5 - 2).toFixed(1);
-    el.style.transform = `translateY(${y}px)`;
-    el.style.fontSize = "1.2em";
-    el.style.transition = "transform 0.6s cubic-bezier(.6,0,.1,1), font-size 0.6s cubic-bezier(.6,0,.1,1)";
-    setTimeout(() => {
-      el.style.fontSize = "";
-      el.style.transform = "translateY(0)";
-    }, 300);
-  };
+  const handleCharEnter = (_e: React.MouseEvent<HTMLSpanElement>) => {};
 
   // Group chars into words so words never break mid-character
   const segments = children.split(/(\s+)/);
@@ -141,7 +131,6 @@ function AnimatedText({ children }: { children: string }) {
               onMouseEnter={isSpace ? undefined : handleCharEnter}
               style={{
                 display: isSpace ? undefined : "inline-block",
-                transition: "transform 0.6s cubic-bezier(.6,0,.1,1), font-size 0.6s cubic-bezier(.6,0,.1,1)",
               }}
             >
               {char}
@@ -497,8 +486,7 @@ const SidebarLink = forwardRef<HTMLDivElement, { icons: IconDef[]; trailingIcons
           cursor: "none",
           color: active ? "#000" : mobileNav ? "#999" : "#ddd",
           opacity: dimmed ? 0.65 : 1,
-          transform: hovered ? "translateX(4px)" : "translateX(0)",
-          transition: "color 0.8s ease, opacity 0.8s ease, transform 0.15s ease",
+          transition: "color 0.8s ease, opacity 0.8s ease",
           width: "100%",
           lineHeight: mobileNav ? "28px" : "16px",
           fontSize: mobileNav ? 14 : undefined,

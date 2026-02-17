@@ -265,8 +265,7 @@ export default function ContactForm({ onClose, lang = "en" }: { onClose: () => v
           paddingRight: "clamp(40px, 8vw, 160px)",
           paddingLeft: 30,
           opacity: contentVisible ? 1 : 0,
-          transform: contentVisible ? "translateY(0)" : "translateY(6px)",
-          transition: "opacity 0.8s ease, transform 0.8s ease",
+          transition: "opacity 0.8s ease",
         }}
       >
         <form
