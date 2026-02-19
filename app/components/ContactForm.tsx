@@ -234,7 +234,7 @@ export default function ContactForm({ onClose, lang = "en" }: { onClose: () => v
     <div style={{ height: "100%", display: "flex", flexDirection: "column", position: "relative" }}>
       {!loaderDone && (
         <TextScatterLoader
-          text={ct.title}
+          text="Contact"
           amount={3}
           fontSize={2.5}
           interval={20}

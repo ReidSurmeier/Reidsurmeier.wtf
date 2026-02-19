@@ -78,17 +78,21 @@ html, body {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  cursor: none;
+}
+
+@media (min-width: 768px) {
+  html, body {
+    cursor: none;
+  }
+  * {
+    cursor: none !important;
+  }
 }
 
 @media (max-width: 767px) {
   html, body {
     overflow: auto;
   }
-}
-
-* {
-  cursor: none !important;
 }
 
 

@@ -4,11 +4,70 @@ import CustomCursor from "./components/CustomCursor";
 import AnimatedFavicon from "./components/AnimatedFavicon";
 
 export const metadata: Metadata = {
-  title: "Reid Surmeier, I.S.P.",
+  title: {
+    default: "Reid Surmeier, I.S.P.",
+    template: "%s | Reid Surmeier, I.S.P.",
+  },
   description:
-    "Reid Surmeier, I.S.P. — Independent Studio Practice. Multidisciplinary designer and artist working across computation, painting, and sculpture.",
-  keywords:
-    "Reid Surmeier, I.S.P., Independent Studio Practice, RISD, computation, painting, sculpture",
+    "Reid Surmeier, I.S.P. — Independent Studio Practice. American multidisciplinary designer and artist working across computation, painting, and sculpture.",
+  keywords: [
+    "Reid Surmeier",
+    "I.S.P.",
+    "Independent Studio Practice",
+    "RISD",
+    "computation",
+    "painting",
+    "sculpture",
+    "multidisciplinary artist",
+    "designer",
+    "digital art",
+    "plotter art",
+    "CNC art",
+    "contemporary art",
+    "pen plotter",
+    "generative art",
+  ],
+  authors: [{ name: "Reid Surmeier", url: "https://reidsurmeier.wtf" }],
+  creator: "Reid Surmeier",
+  metadataBase: new URL("https://reidsurmeier.wtf"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://reidsurmeier.wtf",
+    siteName: "Reid Surmeier, I.S.P.",
+    title: "Reid Surmeier, I.S.P.",
+    description:
+      "Independent Studio Practice. American multidisciplinary designer and artist working across computation, painting, and sculpture.",
+    images: [
+      {
+        url: "/Plotter_1.png",
+        width: 1200,
+        height: 630,
+        alt: "Reid Surmeier — Pen plotter drawing",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Reid Surmeier, I.S.P.",
+    description:
+      "Independent Studio Practice. Multidisciplinary designer and artist working across computation, painting, and sculpture.",
+    images: ["/Plotter_1.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -51,6 +110,16 @@ export default function RootLayout({
 
       (graphic design and programming by Reid Surmeier)
 */` }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Reid Surmeier",
+          "url": "https://reidsurmeier.wtf",
+          "sameAs": ["https://www.instagram.com/reidsurmeier/"],
+          "jobTitle": "Multidisciplinary Designer and Artist",
+          "description": "American multidisciplinary designer and artist working across computation, painting, and sculpture.",
+          "knowsAbout": ["Computation", "Painting", "Sculpture", "Digital Art", "Pen Plotter Art", "CNC Art"],
+        }) }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
