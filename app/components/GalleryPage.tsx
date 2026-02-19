@@ -233,9 +233,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "No press coverage yet.",
     shopText: "Prints available upon request. Contact for pricing and availability.",
     comingSoon: "Gallery content coming soon.",
-    aboutP1: "During the fall of 2025, I started working with an AxiDraw pen plotter, trying to work around combining and integrate digital computational technologies into my more traditional drawing practice.",
-    aboutP2: "The series of drawings here are a product of me testing and experimenting with varied methods and ways of mark-making and tooling, creating custom fountain pen attachments and reprogramming the plotter to access more variables of control.",
-    aboutP3: "",
+    aboutP1: "This series of plotter drawings explores the intersection of computational logic and hand-drawn aesthetics. Using a custom-built pen plotter, each work translates algorithmic processes into physical mark-making on paper, blurring the boundary between human gesture and machine precision.",
+    aboutP2: "The drawings are generated through iterative code — each pass of the pen responding to parameters of density, rhythm, and spatial distribution. The resulting compositions oscillate between order and chaos, reflecting the tension between programmed instruction and material unpredictability.",
+    aboutP3: "Produced between 2025 and 2026 as part of an ongoing investigation into computational drawing practices at the Rhode Island School of Design, these works sit at the nexus of art, design, and technology.",
   },
   de: {
     works: "Werke",
@@ -245,9 +245,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "Noch keine Presseberichterstattung.",
     shopText: "Drucke auf Anfrage erhältlich. Kontaktieren Sie uns für Preise und Verfügbarkeit.",
     comingSoon: "Galerieinhalt kommt bald.",
-    aboutP1: "Im Herbst 2025 begann ich mit einem AxiDraw-Stiftplotter zu arbeiten und versuchte, digitale Computertechnologien in meine eher traditionelle Zeichenpraxis zu integrieren.",
-    aboutP2: "Die hier gezeigten Zeichnungen sind das Ergebnis meiner Experimente mit verschiedenen Methoden und Arten des Markierens und Werkzeugeinsatzes, der Herstellung individueller Füllfederhalter-Aufsätze und der Neuprogrammierung des Plotters, um mehr Kontrollvariablen nutzen zu können.",
-    aboutP3: "",
+    aboutP1: "Diese Serie von Plotterzeichnungen erforscht die Schnittstelle zwischen Rechenlogik und handgezeichneter Ästhetik. Mit einem selbstgebauten Stiftplotter übersetzt jedes Werk algorithmische Prozesse in physische Markierungen auf Papier und verwischt die Grenze zwischen menschlicher Geste und maschineller Präzision.",
+    aboutP2: "Die Zeichnungen werden durch iterativen Code erzeugt — jeder Stiftdurchgang reagiert auf Parameter von Dichte, Rhythmus und räumlicher Verteilung. Die resultierenden Kompositionen oszillieren zwischen Ordnung und Chaos und spiegeln die Spannung zwischen programmierter Anweisung und materieller Unvorhersehbarkeit wider.",
+    aboutP3: "Entstanden zwischen 2025 und 2026 im Rahmen einer laufenden Untersuchung computergestützter Zeichenpraktiken an der Rhode Island School of Design, befinden sich diese Werke an der Schnittstelle von Kunst, Design und Technologie.",
   },
   fr: {
     works: "Œuvres",
@@ -257,9 +257,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "Pas encore de couverture presse.",
     shopText: "Tirages disponibles sur demande. Contactez-nous pour les prix et la disponibilité.",
     comingSoon: "Contenu de la galerie à venir.",
-    aboutP1: "À l'automne 2025, j'ai commencé à travailler avec un traceur à plume AxiDraw, cherchant à combiner et intégrer les technologies numériques computationnelles dans ma pratique de dessin plus traditionnelle.",
-    aboutP2: "La série de dessins présentée ici est le fruit de mes essais et expérimentations avec diverses méthodes et manières de faire des marques et d'outillage, créant des adaptateurs personnalisés pour stylos-plume et reprogrammant le traceur pour accéder à davantage de variables de contrôle.",
-    aboutP3: "",
+    aboutP1: "Cette série de dessins au traceur explore l'intersection entre la logique computationnelle et l'esthétique du dessin à la main. À l'aide d'un traceur à plume construit sur mesure, chaque œuvre traduit des processus algorithmiques en marques physiques sur papier, brouillant la frontière entre le geste humain et la précision mécanique.",
+    aboutP2: "Les dessins sont générés par un code itératif — chaque passage du stylo répondant à des paramètres de densité, de rythme et de distribution spatiale. Les compositions résultantes oscillent entre ordre et chaos, reflétant la tension entre instruction programmée et imprévisibilité matérielle.",
+    aboutP3: "Produites entre 2025 et 2026 dans le cadre d'une investigation en cours sur les pratiques de dessin computationnel à la Rhode Island School of Design, ces œuvres se situent au carrefour de l'art, du design et de la technologie.",
   },
   ko: {
     works: "작품",
@@ -269,9 +269,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "아직 언론 보도가 없습니다.",
     shopText: "요청 시 프린트 구매 가능합니다. 가격 및 재고 문의는 연락 바랍니다.",
     comingSoon: "갤러리 콘텐츠가 곧 공개됩니다.",
-    aboutP1: "2025년 가을, 저는 AxiDraw 펜 플로터로 작업을 시작하며 디지털 컴퓨터 기술을 보다 전통적인 드로잉 실천에 결합하고 통합하려고 시도했습니다.",
-    aboutP2: "여기 있는 드로잉 시리즈는 다양한 방법과 마크 메이킹 및 도구 사용 방식을 시험하고 실험한 결과물로, 맞춤형 만년필 어태치먼트를 제작하고 플로터를 재프로그래밍하여 더 많은 제어 변수에 접근한 것입니다.",
-    aboutP3: "",
+    aboutP1: "이 펜 플로터 드로잉 시리즈는 컴퓨터 논리와 손으로 그린 미학의 교차점을 탐구합니다. 맞춤 제작한 펜 플로터를 사용하여 각 작품은 알고리즘 프로세스를 종이 위의 물리적 표현으로 변환하며, 인간의 제스처와 기계의 정밀함 사이의 경계를 흐리게 합니다.",
+    aboutP2: "드로잉은 반복적인 코드를 통해 생성됩니다 — 펜의 각 패스는 밀도, 리듬, 공간 분포의 매개변수에 반응합니다. 결과적인 구성은 질서와 혼돈 사이를 오가며, 프로그래밍된 명령과 재료의 예측 불가능성 사이의 긴장을 반영합니다.",
+    aboutP3: "로드 아일랜드 디자인 스쿨에서 진행 중인 컴퓨터 드로잉 실천에 대한 연구의 일환으로 2025년과 2026년 사이에 제작된 이 작품들은 예술, 디자인, 기술의 교차점에 위치합니다.",
   },
   id: {
     works: "Karya",
@@ -281,9 +281,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "Belum ada liputan pers.",
     shopText: "Cetakan tersedia berdasarkan permintaan. Hubungi untuk harga dan ketersediaan.",
     comingSoon: "Konten galeri segera hadir.",
-    aboutP1: "Pada musim gugur 2025, saya mulai bekerja dengan pen plotter AxiDraw, mencoba menggabungkan dan mengintegrasikan teknologi komputasi digital ke dalam praktik menggambar tradisional saya.",
-    aboutP2: "Seri gambar di sini adalah hasil dari pengujian dan eksperimen saya dengan berbagai metode dan cara pembuatan tanda serta perkakas, membuat attachment pena fountain kustom dan memprogram ulang plotter untuk mengakses lebih banyak variabel kontrol.",
-    aboutP3: "",
+    aboutP1: "Seri gambar plotter ini mengeksplorasi persimpangan antara logika komputasi dan estetika gambar tangan. Menggunakan pen plotter buatan sendiri, setiap karya menerjemahkan proses algoritmik menjadi tanda fisik di atas kertas, mengaburkan batas antara gestur manusia dan presisi mesin.",
+    aboutP2: "Gambar-gambar ini dihasilkan melalui kode iteratif — setiap lintasan pena merespons parameter kepadatan, ritme, dan distribusi spasial. Komposisi yang dihasilkan berosilasi antara keteraturan dan kekacauan, mencerminkan ketegangan antara instruksi terprogram dan ketidakpastian material.",
+    aboutP3: "Diproduksi antara 2025 dan 2026 sebagai bagian dari investigasi berkelanjutan tentang praktik menggambar komputasional di Rhode Island School of Design, karya-karya ini berada di persimpangan seni, desain, dan teknologi.",
   },
   zh: {
     works: "作品",
@@ -293,9 +293,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "暂无媒体报道。",
     shopText: "版画可按需购买。请联系了解价格和供应情况。",
     comingSoon: "画廊内容即将推出。",
-    aboutP1: "2025年秋天，我开始使用AxiDraw笔式绘图仪进行创作，尝试将数字计算技术融合并整合到我较为传统的绘画实践中。",
-    aboutP2: "这里展示的系列绘画是我测试和尝试各种标记制作方法与工具的成果，包括制作定制钢笔附件以及重新编程绘图仪以获取更多控制变量。",
-    aboutP3: "",
+    aboutP1: "这一系列绘图仪作品探索了计算逻辑与手绘美学的交叉点。使用定制的笔式绘图仪，每件作品将算法过程转化为纸上的物理标记，模糊了人类姿态与机器精度之间的界限。",
+    aboutP2: "这些绘画通过迭代代码生成——笔的每一次运行都响应密度、节奏和空间分布的参数。由此产生的构图在秩序与混沌之间振荡，反映了编程指令与材料不可预测性之间的张力。",
+    aboutP3: "这些作品于2025年至2026年间创作，是罗德岛设计学院计算绘画实践持续研究的一部分，处于艺术、设计和技术的交汇处。",
   },
   ja: {
     works: "作品",
@@ -305,9 +305,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "プレス報道はまだありません。",
     shopText: "プリントはリクエストに応じてご購入いただけます。価格と在庫についてはお問い合わせください。",
     comingSoon: "ギャラリーコンテンツは近日公開予定です。",
-    aboutP1: "2025年の秋、私はAxiDrawペンプロッターでの制作を始め、デジタルコンピュテーション技術をより伝統的なドローイングの実践に組み合わせ、統合することを試みました。",
-    aboutP2: "ここに展示されているドローイングシリーズは、さまざまなマークメイキングの方法やツールの使い方を試行錯誤した成果であり、カスタム万年筆アタッチメントの制作やプロッターの再プログラミングによって、より多くの制御変数にアクセスしたものです。",
-    aboutP3: "",
+    aboutP1: "このペンプロッタードローイングシリーズは、計算論理と手描きの美学の交差点を探求しています。カスタムメイドのペンプロッターを使用して、各作品はアルゴリズムのプロセスを紙の上の物理的なマーキングに変換し、人間のジェスチャーと機械の精度の境界を曖昧にします。",
+    aboutP2: "ドローイングは反復的なコードによって生成されます — ペンの各パスは密度、リズム、空間分布のパラメータに応答します。結果として生まれる構成は秩序と混沌の間を揺れ動き、プログラムされた命令と素材の予測不可能性の間の緊張を反映しています。",
+    aboutP3: "ロードアイランド・スクール・オブ・デザインでの計算描画実践に関する継続的な研究の一環として2025年から2026年にかけて制作されたこれらの作品は、アート、デザイン、テクノロジーの交差点に位置しています。",
   },
 };
 
@@ -889,12 +889,12 @@ interface WritingEntry {
 
 const writingEntries: WritingEntry[] = [
   { title: "You Owe Me", author: "Reid Surmeier", year: "2026", category: "Essay", cover: "/img/overview/HRF_TXT_01_Vorwort.jpg", pdf: "/You Owe Me.pdf", pages: 12 },
-  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_01_Vorwort.jpg", pages: 0 },
-  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_02_Landert-b.jpg", pages: 0 },
-  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_03_Roeder.jpg", pages: 0 },
-  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_04_Badrutt.jpg", pages: 0 },
-  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_06_Kuhn.jpg", pages: 0 },
-  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_07_Anhang.jpg", pages: 0 },
+  { title: "Vorwort", author: "Markus Landert & Ute Christiane Hoefert", year: "2025", category: "Foreword", cover: "/img/overview/HRF_TXT_01_Vorwort.jpg", pdf: "/HRF_TXT_01_Vorwort.pdf", pages: 2 },
+  { title: "Der Konzeptkünstler H. R. Fricker", author: "Markus Landert", year: "2025", category: "Essay", cover: "/img/overview/HRF_TXT_02_Landert-b.jpg", pages: 8 },
+  { title: "H. R. Fricker und der Social-Network-Aspekt in der Mail Art", author: "Kornelia Röder", year: "2025", category: "Essay", cover: "/img/overview/HRF_TXT_03_Roeder.jpg", pages: 4 },
+  { title: "Angler, Anzettler, Aggressor", author: "Ursula Badrutt", year: "2025", category: "Essay", cover: "/img/overview/HRF_TXT_04_Badrutt.jpg", pages: 3 },
+  { title: "Im Gespräch mit H. R. Fricker", author: "Matthias Kuhn", year: "2025", category: "Interview", cover: "/img/overview/HRF_TXT_06_Kuhn.jpg", pages: 6 },
+  { title: "Final Press Release", author: "Reid Surmeier", year: "2026", category: "Press", cover: "/img/overview/HRF_TXT_07_Anhang.jpg", pdf: "/FinalReidSurmeierpressrealease.pdf", pages: 1 },
 ];
 
 const writingCategories = ["Essay", "Foreword", "Interview", "Press"] as const;
@@ -912,14 +912,14 @@ interface LectureEntry {
 }
 
 const lectureEntries: LectureEntry[] = [
-  { title: "Placeholder", institution: "", year: "", category: "Keynote", cover: "/Plotter_1.png" },
-  { title: "Placeholder", institution: "", year: "", category: "Keynote", cover: "/plotter_2.png" },
-  { title: "Placeholder", institution: "", year: "", category: "Workshop", cover: "/plotter_4.jpg" },
-  { title: "Placeholder", institution: "", year: "", category: "Workshop", cover: "/plotter_5.jpg" },
-  { title: "Placeholder", institution: "", year: "", category: "Workshop", cover: "/plotter_6.jpg" },
+  { title: "Computational Drawing Practices", institution: "Rhode Island School of Design", year: "2026", category: "Lecture", cover: "/Plotter_1.png", description: "Guest lecture on algorithmic mark-making and pen plotter systems." },
+  { title: "Digital Fabrication Studio", institution: "RISD Industrial Design", year: "2025–2026", category: "Teaching", cover: "/plotter_2.png", description: "Teaching assistant for digital fabrication methods." },
+  { title: "Introduction to Web Technologies", institution: "RISD Graphic Design", year: "2025", category: "Teaching", cover: "/plotter_4.jpg", description: "Workshop on HTML, CSS, and JavaScript for designers." },
+  { title: "Art, Design & the Algorithm", institution: "RISD Liberal Arts", year: "2025", category: "Lecture", cover: "/plotter_5.jpg", description: "Interdisciplinary lecture on generative systems in contemporary art." },
+  { title: "Plotter Drawing: Process & Output", institution: "RISD Printmaking", year: "2026", category: "Workshop", cover: "/plotter_6.jpg", description: "Hands-on workshop introducing pen plotters as printmaking tools." },
 ];
 
-const lectureCategories = ["Keynote", "Workshop"] as const;
+const lectureCategories = ["Lecture", "Teaching", "Workshop"] as const;
 
 function WritingLibrary({ lang }: { lang: Lang }) {
   void lang;
@@ -2072,8 +2072,7 @@ export default function GalleryPage({
   onContact?: () => void;
 }) {
   void onClose;
-  const skipLoader = inputLabel === "Input_008" || inputLabel === "Input_010" || inputLabel === "Input_012" || inputLabel === "Input_013" || inputLabel === "Input_014" || inputLabel === "Input_015";
-  const [loaderDone, setLoaderDone] = useState(skipLoader);
+  const [loaderDone, setLoaderDone] = useState(false);
   const [contentVisible, setContentVisible] = useState(false);
   useEffect(() => {
     const t = setTimeout(() => setContentVisible(true), 300);

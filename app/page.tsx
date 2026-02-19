@@ -154,7 +154,7 @@ const translations = {
     sculpture_nav: "Sculpture",
     writing: "Writing",
     archive: "Archive",
-    lectures: "Keynotes / Workshops",
+    lectures: "Lectures / Keynotes",
     cv: "Curriculum Vitae",
     social: "Instagram",
     contact: "Contact",
@@ -185,7 +185,7 @@ const translations = {
     sculpture_nav: "Skulptur",
     writing: "Schreiben",
     archive: "Archiv",
-    lectures: "Keynotes / Workshops",
+    lectures: "Vorlesungen / Lehre",
     cv: "Lebenslauf",
     social: "Instagram",
     contact: "Kontakt",
@@ -216,7 +216,7 @@ const translations = {
     sculpture_nav: "Sculpture",
     writing: "\u00c9criture",
     archive: "Archives",
-    lectures: "Keynotes / Workshops",
+    lectures: "Conf\u00e9rences / Enseignement",
     cv: "Curriculum Vitae",
     social: "Instagram",
     contact: "Contact",
@@ -247,7 +247,7 @@ const translations = {
     sculpture_nav: "\uC870\uAC01",
     writing: "\uAE00\uC4F0\uAE30",
     archive: "\uC544\uCE74\uC774\uBE0C",
-    lectures: "Keynotes / Workshops",
+    lectures: "\uAC15\uC758 / \uAD50\uC721",
     cv: "\uC774\uB825\uC11C",
     social: "Instagram",
     contact: "\uC5F0\uB77D\uCC98",
@@ -278,7 +278,7 @@ const translations = {
     sculpture_nav: "Patung",
     writing: "Tulisan",
     archive: "Arsip",
-    lectures: "Keynotes / Workshops",
+    lectures: "Kuliah / Pengajaran",
     cv: "Daftar Riwayat Hidup",
     social: "Instagram",
     contact: "Kontak",
@@ -309,7 +309,7 @@ const translations = {
     sculpture_nav: "\u96D5\u5851",
     writing: "\u5199\u4F5C",
     archive: "\u6863\u6848",
-    lectures: "Keynotes / Workshops",
+    lectures: "\u8BB2\u5EA7 / \u6559\u5B66",
     cv: "\u7B80\u5386",
     social: "Instagram",
     contact: "\u8054\u7CFB",
@@ -340,7 +340,7 @@ const translations = {
     sculpture_nav: "\u5F6B\u523B",
     writing: "\u57F7\u7B46",
     archive: "\u30A2\u30FC\u30AB\u30A4\u30D6",
-    lectures: "Keynotes / Workshops",
+    lectures: "\u8B1B\u7FA9 / \u6559\u80B2",
     cv: "\u5C65\u6B74\u66F8",
     social: "Instagram",
     contact: "\u304A\u554F\u3044\u5408\u308F\u305B",
@@ -456,10 +456,10 @@ function SidebarIcon({ char, shape = "circle", hovered }: IconDef & { hovered: b
   );
 }
 
-const SidebarLink = forwardRef<HTMLDivElement, { icons: IconDef[]; trailingIcons?: IconDef[]; label: string; href?: string; typeDelay?: number; typeSpeed?: number; skipType?: boolean; highlighted?: boolean; dimmed?: boolean; mobileNav?: boolean; marquee?: boolean; hideLabel?: boolean; onMouseEnter?: () => void; onMouseLeave?: () => void }>(
-  function SidebarLink({ icons, trailingIcons, label, href, typeDelay, typeSpeed, skipType, highlighted, dimmed, mobileNav, marquee, hideLabel, onMouseEnter, onMouseLeave }, ref) {
+const SidebarLink = forwardRef<HTMLDivElement, { icons: IconDef[]; trailingIcons?: IconDef[]; label: string; href?: string; typeDelay?: number; highlighted?: boolean; dimmed?: boolean; mobileNav?: boolean; marquee?: boolean; hideLabel?: boolean; onMouseEnter?: () => void; onMouseLeave?: () => void }>(
+  function SidebarLink({ icons, trailingIcons, label, href, typeDelay, highlighted, dimmed, mobileNav, marquee, hideLabel, onMouseEnter, onMouseLeave }, ref) {
     const [hovered, setHovered] = useState(false);
-    const [typed, setTyped] = useState(!!skipType);
+    const [typed, setTyped] = useState(false);
     const [activated, setActivated] = useState(false);
 
     // When hideLabel flips from true to false, activate the typewriter
@@ -497,7 +497,7 @@ const SidebarLink = forwardRef<HTMLDivElement, { icons: IconDef[]; trailingIcons
         ))}
         {activated && (
           <span style={{ marginLeft: 2 }}>
-            {typed ? <AnimatedText>{label}</AnimatedText> : <TypewriterText delay={typeDelay || 0} speed={typeSpeed ?? 35} onDone={() => setTimeout(() => setTyped(true), 400)}>{label}</TypewriterText>}
+            {typed ? <AnimatedText>{label}</AnimatedText> : <TypewriterText delay={typeDelay || 0} speed={35} onDone={() => setTimeout(() => setTyped(true), 400)}>{label}</TypewriterText>}
           </span>
         )}
         {activated && trailingIcons?.map((ic, i) => (
@@ -630,16 +630,6 @@ export default function Home() {
   const [embedML, setEmbedML] = useState(0);
   const [embedMR, setEmbedMR] = useState(0);
   const isHomePage = !showContact && !showAbout && !showCV && !showInstagram && !showGallery && !embedUrl;
-  const [homeFadeIn, setHomeFadeIn] = useState(false);
-  const prevIsHomeRef = useRef(isHomePage);
-  useEffect(() => {
-    if (isHomePage && !prevIsHomeRef.current) {
-      setHomeFadeIn(true);
-      const t = setTimeout(() => setHomeFadeIn(false), 50);
-      return () => clearTimeout(t);
-    }
-    prevIsHomeRef.current = isHomePage;
-  }, [isHomePage]);
   // Header reveals
   const [headerRevealed, setHeaderRevealed] = useState(false);
   const [featuredRevealed, setFeaturedRevealed] = useState(false);
@@ -647,8 +637,6 @@ export default function Home() {
   const [imgLabelRevealed, setImgLabelRevealed] = useState(false);
   const [sidebarRevealed, setSidebarRevealed] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const sidebarOpenRef = useRef(false);
-  useEffect(() => { sidebarOpenRef.current = sidebarOpen; }, [sidebarOpen]);
   const [initialLoadDone, setInitialLoadDone] = useState(false);
   const [showQuoteMarquee, setShowQuoteMarquee] = useState(false);
   const [marqueeSidebarIdx, setMarqueeSidebarIdx] = useState<number | null>(null);
@@ -702,10 +690,6 @@ export default function Home() {
     applyPage(page);
   }, [navIndex, applyPage]);
 
-  // Scatter transition state
-  const [scatterActive, setScatterActive] = useState(false);
-  const scatterPendingRef = useRef<string | null>(null);
-
   // Scatter all visible content then navigate (Locomotive-style transition)
   const scatterAndNavigate = useCallback((page: string) => {
     // Clear leader lines immediately
@@ -720,14 +704,39 @@ export default function Home() {
     setBioFade(false);
     setCaption("");
 
-    scatterPendingRef.current = page;
-    setScatterActive(true);
+    // Find all visible content containers inside the desktop area
+    const parent = desktopContentRef.current;
+    if (!parent) { navigateTo(page); return; }
+
+    // Gather elements from all visible page containers (homepage + sub-pages)
+    const allElements: HTMLElement[] = [];
+    parent.querySelectorAll<HTMLElement>(":scope > div").forEach((container) => {
+      const style = window.getComputedStyle(container);
+      if (style.display === "none" || style.visibility === "hidden") return;
+      container.querySelectorAll<HTMLElement>(":scope > div, :scope > form, :scope > iframe").forEach((el) => {
+        allElements.push(el);
+      });
+    });
+
+    if (allElements.length === 0) { navigateTo(page); return; }
+
+    allElements.forEach((el) => {
+      const randX = (Math.random() - 0.5) * 1200;
+      const randY = (Math.random() - 0.5) * 600;
+      const randRot = (Math.random() - 0.5) * 30;
+      el.style.transition = "transform 0.5s cubic-bezier(0.4, 0, 1, 1), opacity 0.4s ease";
+      el.style.transform = `translate(${randX}px, ${randY}px) rotate(${randRot}deg)`;
+      el.style.opacity = "0";
+    });
 
     setTimeout(() => {
-      setScatterActive(false);
-      navigateTo(scatterPendingRef.current || page);
-      scatterPendingRef.current = null;
-    }, 900);
+      allElements.forEach((el) => {
+        el.style.transition = "";
+        el.style.transform = "";
+        el.style.opacity = "";
+      });
+      navigateTo(page);
+    }, 500);
   }, [navigateTo]);
 
   // Go back
@@ -1300,7 +1309,6 @@ export default function Home() {
       for (const { el, color, ref } of printsEntries) {
         if (!el) continue;
         const enter = () => {
-          if (!sidebarOpenRef.current) return;
           leaderLinesRef.current = [];
           drawLines(printsRef, [{ ref, color }]);
         };
@@ -1312,7 +1320,6 @@ export default function Home() {
       for (const { el, color, ref } of paintingEntries) {
         if (!el) continue;
         const enter = () => {
-          if (!sidebarOpenRef.current) return;
           leaderLinesRef.current = [];
           drawLines(paintingRef, [{ ref, color }]);
         };
@@ -1324,7 +1331,6 @@ export default function Home() {
       for (const { el, color, ref } of pressEntries) {
         if (!el) continue;
         const enter = () => {
-          if (!sidebarOpenRef.current) return;
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
           const W = window as any;
           if (!fotografierenRef.current || !W.LeaderLine) return;
@@ -1388,7 +1394,6 @@ export default function Home() {
       for (const { el, color, ref } of writingEntries) {
         if (!el) continue;
         const enter = () => {
-          if (!sidebarOpenRef.current) return;
           leaderLinesRef.current = [];
           drawLines(writingRef, [{ ref, color, endSocket: "top" }]);
         };
@@ -1541,7 +1546,7 @@ export default function Home() {
               <SidebarLink ref={paintingRef} icons={[{char:"C"}]} label={t.painting} typeDelay={800} hideLabel={!sidebarOpen} highlighted={highlightedCategory === "painting"} dimmed={activeCoverIdx !== null && highlightedCategory !== "painting"} onMouseEnter={handlePaintingEnter} onMouseLeave={handlePaintingLeave} marquee={marqueeSidebarIdx === 3} />
             </div>
             <div onClick={() => scatterAndNavigate("sculpture")}>
-              <SidebarLink ref={sculptureRef} icons={[{char:"P"}]} label={t.sculpture_nav} skipType hideLabel={!sidebarOpen} dimmed={activeCoverIdx !== null} marquee={marqueeSidebarIdx === 4} />
+              <SidebarLink ref={sculptureRef} icons={[{char:"P"}]} label={t.sculpture_nav} typeDelay={1400} hideLabel={!sidebarOpen} dimmed={activeCoverIdx !== null} marquee={marqueeSidebarIdx === 4} />
             </div>
             <div onClick={() => scatterAndNavigate("webui")}>
               <SidebarLink ref={webUiRef} icons={[{char:"v"}]} label="Web + UI/UX" typeDelay={1700} hideLabel={!sidebarOpen} dimmed={activeCoverIdx !== null} onMouseEnter={handleWebUiEnter} onMouseLeave={handleWebUiLeave} marquee={marqueeSidebarIdx === 5} />
@@ -1558,13 +1563,13 @@ export default function Home() {
             </div>
             <div style={{ marginTop: 150 }}>
               <div onClick={() => scatterAndNavigate("instagram")}>
-                <SidebarLink icons={[{char:"Q"}]} label={t.social} typeDelay={2900} typeSpeed={5} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 9} />
+                <SidebarLink icons={[{char:"Q"}]} label={t.social} typeDelay={2900} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 9} />
               </div>
               <div onClick={() => scatterAndNavigate("are.na")}>
-                <SidebarLink icons={[{char:"A"}]} label="Are.na" typeDelay={3200} typeSpeed={5} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 10} />
+                <SidebarLink icons={[{char:"A"}]} label="Are.na" typeDelay={3200} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 10} />
               </div>
               <div onClick={() => scatterAndNavigate("garden")}>
-                <SidebarLink ref={gardenRef} icons={[{char:"g"}]} label="Garden" typeDelay={3500} typeSpeed={5} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 11} />
+                <SidebarLink ref={gardenRef} icons={[{char:"g"}]} label="Garden" typeDelay={3500} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 11} />
               </div>
               {sidebarOpen && <AnimatedDivider delay={3650} />}
               <div onClick={() => scatterAndNavigate("cv")}>
@@ -1572,10 +1577,10 @@ export default function Home() {
               </div>
               {sidebarOpen && <AnimatedDivider delay={3950} />}
               <div onClick={() => scatterAndNavigate("about")}>
-                <SidebarLink icons={[{char:"S",shape:"square"}]} label="About" typeDelay={4100} typeSpeed={5} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 13} />
+                <SidebarLink icons={[{char:"S",shape:"square"}]} label="About" typeDelay={4100} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 13} />
               </div>
               <div onClick={() => scatterAndNavigate("contact")}>
-                <SidebarLink icons={[{char:"B"},{char:"3",shape:"triangle"}]} label={t.contact} typeDelay={4400} typeSpeed={5} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 14} />
+                <SidebarLink icons={[{char:"B"},{char:"3",shape:"triangle"}]} label={t.contact} typeDelay={4400} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 14} />
               </div>
             </div>
           </div>
@@ -1612,7 +1617,7 @@ export default function Home() {
       <div className="hidden md:block absolute top-0 h-full" style={{ left: 10, width: 1, background: "#eee", zIndex: 1 }} />
 
       {/* === DESKTOP LEFT AREA (content) === */}
-      <div ref={desktopContentRef} className="hidden md:block absolute top-0 h-full" style={{ left: 11, right: initialLoadDone ? (sidebarOpen ? 196 : 0) : 196, transition: initialLoadDone ? `right 0.7s cubic-bezier(0.25, 0.1, 0.25, 1)${scatterActive ? ", transform 0.9s cubic-bezier(0.4, 0, 1, 1), opacity 0.7s ease" : ""}` : "none", transform: scatterActive ? "translateX(-800px)" : "none", opacity: scatterActive ? 0 : 1 }}>
+      <div ref={desktopContentRef} className="hidden md:block absolute top-0 h-full" style={{ left: 11, right: initialLoadDone ? (sidebarOpen ? 196 : 0) : 196, transition: initialLoadDone ? "right 0.7s cubic-bezier(0.25, 0.1, 0.25, 1)" : "none" }}>
         {/* Language - sub-pages only */}
         <div className="absolute top-[20px] z-[1000] flex gap-[10px]" style={{ right: sidebarOpen ? 20 : 80, transition: "right 0.7s cubic-bezier(0.25, 0.1, 0.25, 1)", display: showContact || showAbout || showCV || embedUrl || showInstagram || showGallery ? undefined : "none" }}>
           <LangButton label="DE" active={lang === "de"} onClick={() => setLang("de")} />
@@ -1691,7 +1696,7 @@ export default function Home() {
         )}
 
         {/* Bio text + Book covers + TXT/IMG scrollable area */}
-        <div ref={contentAreaRef} className="absolute top-[15px] bottom-0 left-0 right-0 overflow-y-auto" style={{ display: showContact || showAbout || showCV || embedUrl || showInstagram || showGallery ? "none" : undefined, paddingLeft: 30, opacity: homeFadeIn ? 0 : 1, transition: "opacity 0.6s ease" }}>
+        <div key={`home-${navIndex}`} ref={contentAreaRef} className="absolute top-[15px] bottom-0 left-0 right-0 overflow-y-auto" style={{ display: showContact || showAbout || showCV || embedUrl || showInstagram || showGallery ? "none" : undefined, paddingLeft: 30 }}>
           {/* Top border line */}
           <div style={{ borderBottom: "1px solid #eee", marginRight: -80 }} />
           {/* Input label + languages row below the line */}

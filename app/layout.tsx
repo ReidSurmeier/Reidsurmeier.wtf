@@ -4,62 +4,11 @@ import CustomCursor from "./components/CustomCursor";
 import AnimatedFavicon from "./components/AnimatedFavicon";
 
 export const metadata: Metadata = {
-  title: {
-    default: "Reid Surmeier, I.S.P. — Independent Studio Practice",
-    template: "%s | Reid Surmeier",
-  },
+  title: "Reid Surmeier, I.S.P.",
   description:
-    "Reid Surmeier, I.S.P. — Independent Studio Practice. Multidisciplinary designer and artist working across computation, painting, sculpture, prints, and writing. Based at Rhode Island School of Design.",
-  keywords: [
-    "Reid Surmeier",
-    "I.S.P.",
-    "Independent Studio Practice",
-    "RISD",
-    "Rhode Island School of Design",
-    "computation",
-    "painting",
-    "sculpture",
-    "prints",
-    "plotter drawings",
-    "writing",
-    "multidisciplinary artist",
-    "designer",
-    "AxiDraw",
-    "pen plotter",
-    "digital fabrication",
-  ],
-  authors: [{ name: "Reid Surmeier" }],
-  creator: "Reid Surmeier",
-  metadataBase: new URL("https://reidsurmeier.wtf"),
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://reidsurmeier.wtf",
-    siteName: "Reid Surmeier, I.S.P.",
-    title: "Reid Surmeier, I.S.P. — Independent Studio Practice",
-    description:
-      "Multidisciplinary designer and artist working across computation, painting, sculpture, prints, and writing. Prints — AxiDraw pen plotter drawings. Painting — mixed media works. Sculpture — three-dimensional explorations. Writing — essays and critical texts. About — studio practice and biography.",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Reid Surmeier, I.S.P.",
-    description:
-      "Multidisciplinary designer and artist — prints, painting, sculpture, writing, and about.",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
+    "Reid Surmeier, I.S.P. — Independent Studio Practice. Multidisciplinary designer and artist working across computation, painting, and sculpture.",
+  keywords:
+    "Reid Surmeier, I.S.P., Independent Studio Practice, RISD, computation, painting, sculpture",
 };
 
 export default function RootLayout({
@@ -102,36 +51,6 @@ export default function RootLayout({
 
       (graphic design and programming by Reid Surmeier)
 */` }} />
-        <meta name="referrer" content="strict-origin-when-cross-origin" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Person",
-              name: "Reid Surmeier",
-              url: "https://reidsurmeier.wtf",
-              jobTitle: "Multidisciplinary Designer and Artist",
-              affiliation: {
-                "@type": "EducationalOrganization",
-                name: "Rhode Island School of Design",
-              },
-              knowsAbout: [
-                "Prints",
-                "Painting",
-                "Sculpture",
-                "Writing",
-                "Computation",
-                "Pen Plotter Drawing",
-                "Digital Fabrication",
-              ],
-              sameAs: [
-                "https://www.instagram.com/reidsurmeier/",
-                "https://www.are.na/reid-surmeier/channels",
-              ],
-            }),
-          }}
-        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
