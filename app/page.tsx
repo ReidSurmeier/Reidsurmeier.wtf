@@ -1560,8 +1560,8 @@ export default function Home() {
         <div className="absolute top-[15px]" style={{ borderBottom: "1px solid #eee", width: "calc(100% - 25px)" }} />
 
         {/* Sidebar navigation — aligned with Featured Work line */}
-        <div className="absolute top-[200px]">
-          <div className="text-[11px] leading-[18px]">
+        <div className="absolute top-[200px]" style={{ bottom: 80, display: "flex", flexDirection: "column" }}>
+          <div className="text-[11px] leading-[18px]" style={{ display: "flex", flexDirection: "column", height: "100%" }}>
             <div style={{ marginBottom: -8 }}>{sidebarOpen && <AnimatedDivider delay={50} />}</div>
             <div onClick={() => scatterAndNavigate("home")}>
               <SidebarLink icons={[{char:"3",shape:"triangle"}]} label="Homepage" typeDelay={100} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 0} />
@@ -1590,7 +1590,7 @@ export default function Home() {
             {false && <div onClick={() => scatterAndNavigate("lectures")}>
               <SidebarLink ref={lecturesRef} icons={[{char:"Y"}]} label={t.lectures} typeDelay={2600} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 7} />
             </div>}
-            <div style={{ marginTop: 150 }}>
+            <div style={{ marginTop: "auto", paddingTop: 15 }}>
               <div onClick={() => scatterAndNavigate("instagram")}>
                 <SidebarLink icons={[{char:"Q"}]} label={t.social} typeDelay={2900} typeSpeed={5} hideLabel={!sidebarOpen} marquee={marqueeSidebarIdx === 9} />
               </div>
