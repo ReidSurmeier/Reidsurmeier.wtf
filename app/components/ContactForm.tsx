@@ -66,6 +66,7 @@ function Highlight({ children, color }: { children: React.ReactNode; color: stri
 type Lang = "en" | "de" | "fr" | "ko" | "id" | "zh" | "ja";
 
 const contactTranslations: Record<Lang, {
+  title: string;
   name: string;
   email: string;
   subject: string;
@@ -77,6 +78,7 @@ const contactTranslations: Record<Lang, {
   intro: (hl: typeof Highlight) => React.ReactNode;
 }> = {
   en: {
+    title: "Contact",
     name: "Name",
     email: "Email",
     subject: "Subject",
@@ -90,6 +92,7 @@ const contactTranslations: Record<Lang, {
     </>,
   },
   de: {
+    title: "Kontakt",
     name: "Name",
     email: "E-Mail",
     subject: "Betreff",
@@ -103,6 +106,7 @@ const contactTranslations: Record<Lang, {
     </>,
   },
   fr: {
+    title: "Contact",
     name: "Nom",
     email: "E-mail",
     subject: "Objet",
@@ -116,6 +120,7 @@ const contactTranslations: Record<Lang, {
     </>,
   },
   ko: {
+    title: "\uC5F0\uB77D\uCC98",
     name: "\uC774\uB984",
     email: "\uC774\uBA54\uC77C",
     subject: "\uC81C\uBAA9",
@@ -129,6 +134,7 @@ const contactTranslations: Record<Lang, {
     </>,
   },
   id: {
+    title: "Kontak",
     name: "Nama",
     email: "Email",
     subject: "Subjek",
@@ -142,6 +148,7 @@ const contactTranslations: Record<Lang, {
     </>,
   },
   zh: {
+    title: "\u8054\u7CFB",
     name: "\u59D3\u540D",
     email: "\u7535\u5B50\u90AE\u4EF6",
     subject: "\u4E3B\u9898",
@@ -155,6 +162,7 @@ const contactTranslations: Record<Lang, {
     </>,
   },
   ja: {
+    title: "\u304A\u554F\u3044\u5408\u308F\u305B",
     name: "\u540D\u524D",
     email: "\u30E1\u30FC\u30EB",
     subject: "\u4EF6\u540D",
@@ -226,8 +234,8 @@ export default function ContactForm({ onClose, lang = "en" }: { onClose: () => v
     <div style={{ height: "100%", display: "flex", flexDirection: "column", position: "relative" }}>
       {!loaderDone && (
         <TextScatterLoader
-          text="Contact"
-          amount={10}
+          text={ct.title}
+          amount={3}
           fontSize={2.5}
           interval={20}
           windowSize={7}
@@ -251,7 +259,7 @@ export default function ContactForm({ onClose, lang = "en" }: { onClose: () => v
       >
         <div style={{ display: "flex", gap: 20 }}>
           <TypewriterText delay={100} speed={50}>{"003"}</TypewriterText>
-          <TypewriterText delay={300} speed={40}>{ct.name === "Name" ? "Contact" : ct.subject === "Betreff" ? "Kontakt" : ct.subject === "Objet" ? "Contact" : ct.subject === "\uC81C\uBAA9" ? "\uC5F0\uB77D\uCC98" : ct.subject === "Subjek" ? "Kontak" : ct.subject === "\u4E3B\u9898" ? "\u8054\u7CFB" : "\u304A\u554F\u3044\u5408\u308F\u305B"}</TypewriterText>
+          <TypewriterText delay={300} speed={40}>{ct.title}</TypewriterText>
         </div>
       </div>
 
@@ -259,13 +267,13 @@ export default function ContactForm({ onClose, lang = "en" }: { onClose: () => v
       <div
         style={{
           flex: 1,
-          display: "flex",
-          alignItems: "flex-start",
+          overflowY: "auto",
           paddingTop: "clamp(30px, 6vw, 80px)",
           paddingRight: "clamp(40px, 8vw, 160px)",
           paddingLeft: 30,
           opacity: contentVisible ? 1 : 0,
-          transition: "opacity 0.8s ease",
+          transform: contentVisible ? "translateY(0)" : "translateY(6px)",
+          transition: "opacity 0.8s ease, transform 0.8s ease",
         }}
       >
         <form

@@ -29,7 +29,7 @@ export default function EmbedPage({
       {!loaderDone && (
         <TextScatterLoader
           text={title || "loading"}
-          amount={10}
+          amount={3}
           fontSize={2.5}
           interval={20}
           windowSize={15}

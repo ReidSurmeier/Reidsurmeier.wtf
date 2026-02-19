@@ -71,7 +71,12 @@ function BookCover({
       onClick={onClick}
       style={{
         opacity: visible ? (dimmed ? 0.65 : 1) : 0,
-        transition: "opacity 0.8s ease",
+        transform: visible
+          ? hovered
+            ? "translateY(-4px)"
+            : "translateY(0)"
+          : "translateY(8px)",
+        transition: "opacity 0.8s ease, transform 0.4s ease",
         outline: hovered ? "2px solid #999" : "none",
         outlineOffset: 2,
         borderRadius: 0,

@@ -59,157 +59,157 @@ const paintingImages = [
 
 const printsCaptions: Record<Lang, Array<{ title: string; date: string; medium: string; dimensions: string }>> = {
   en: [
-    { title: "Untitled I", date: "2025", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
-    { title: "Untitled II", date: "2025", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
-    { title: "Untitled III", date: "2025", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
-    { title: "Untitled IV", date: "2025", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
-    { title: "Untitled V", date: "2025", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
-    { title: "Untitled VI", date: "2025", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
-    { title: "Untitled VIII", date: "2025", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
+    { title: "Untitled I", date: "2026", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
+    { title: "Untitled II", date: "2026", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
+    { title: "Untitled III", date: "2026", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
+    { title: "Untitled IV", date: "2026", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
+    { title: "Untitled V", date: "2026", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
+    { title: "Untitled VI", date: "2026", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
+    { title: "Untitled VIII", date: "2026", medium: "Pen plotter drawing on paper", dimensions: "18 × 24 in." },
   ],
   de: [
-    { title: "Ohne Titel I", date: "2025", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
-    { title: "Ohne Titel II", date: "2025", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
-    { title: "Ohne Titel III", date: "2025", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
-    { title: "Ohne Titel IV", date: "2025", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
-    { title: "Ohne Titel V", date: "2025", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
-    { title: "Ohne Titel VI", date: "2025", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
-    { title: "Ohne Titel VIII", date: "2025", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
+    { title: "Ohne Titel I", date: "2026", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
+    { title: "Ohne Titel II", date: "2026", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
+    { title: "Ohne Titel III", date: "2026", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
+    { title: "Ohne Titel IV", date: "2026", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
+    { title: "Ohne Titel V", date: "2026", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
+    { title: "Ohne Titel VI", date: "2026", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
+    { title: "Ohne Titel VIII", date: "2026", medium: "Stiftplotterzeichnung auf Papier", dimensions: "45,7 × 61 cm" },
   ],
   fr: [
-    { title: "Sans titre I", date: "2025", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
-    { title: "Sans titre II", date: "2025", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
-    { title: "Sans titre III", date: "2025", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
-    { title: "Sans titre IV", date: "2025", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
-    { title: "Sans titre V", date: "2025", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
-    { title: "Sans titre VI", date: "2025", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
-    { title: "Sans titre VIII", date: "2025", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
+    { title: "Sans titre I", date: "2026", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
+    { title: "Sans titre II", date: "2026", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
+    { title: "Sans titre III", date: "2026", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
+    { title: "Sans titre IV", date: "2026", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
+    { title: "Sans titre V", date: "2026", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
+    { title: "Sans titre VI", date: "2026", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
+    { title: "Sans titre VIII", date: "2026", medium: "Dessin au traceur à plume sur papier", dimensions: "45,7 × 61 cm" },
   ],
   ko: [
-    { title: "무제 I", date: "2025", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
-    { title: "무제 II", date: "2025", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
-    { title: "무제 III", date: "2025", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
-    { title: "무제 IV", date: "2025", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
-    { title: "무제 V", date: "2025", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
-    { title: "무제 VI", date: "2025", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
-    { title: "무제 VIII", date: "2025", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
+    { title: "무제 I", date: "2026", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
+    { title: "무제 II", date: "2026", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
+    { title: "무제 III", date: "2026", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
+    { title: "무제 IV", date: "2026", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
+    { title: "무제 V", date: "2026", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
+    { title: "무제 VI", date: "2026", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
+    { title: "무제 VIII", date: "2026", medium: "종이 위 펜 플로터 드로잉", dimensions: "45.7 × 61 cm" },
   ],
   id: [
-    { title: "Tanpa Judul I", date: "2025", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
-    { title: "Tanpa Judul II", date: "2025", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
-    { title: "Tanpa Judul III", date: "2025", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
-    { title: "Tanpa Judul IV", date: "2025", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
-    { title: "Tanpa Judul V", date: "2025", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
-    { title: "Tanpa Judul VI", date: "2025", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
-    { title: "Tanpa Judul VIII", date: "2025", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
+    { title: "Tanpa Judul I", date: "2026", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
+    { title: "Tanpa Judul II", date: "2026", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
+    { title: "Tanpa Judul III", date: "2026", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
+    { title: "Tanpa Judul IV", date: "2026", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
+    { title: "Tanpa Judul V", date: "2026", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
+    { title: "Tanpa Judul VI", date: "2026", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
+    { title: "Tanpa Judul VIII", date: "2026", medium: "Gambar pen plotter di atas kertas", dimensions: "45,7 × 61 cm" },
   ],
   zh: [
-    { title: "无题 I", date: "2025", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
-    { title: "无题 II", date: "2025", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
-    { title: "无题 III", date: "2025", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
-    { title: "无题 IV", date: "2025", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
-    { title: "无题 V", date: "2025", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
-    { title: "无题 VI", date: "2025", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
-    { title: "无题 VIII", date: "2025", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
+    { title: "无题 I", date: "2026", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
+    { title: "无题 II", date: "2026", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
+    { title: "无题 III", date: "2026", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
+    { title: "无题 IV", date: "2026", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
+    { title: "无题 V", date: "2026", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
+    { title: "无题 VI", date: "2026", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
+    { title: "无题 VIII", date: "2026", medium: "纸上笔式绘图仪绘画", dimensions: "45.7 × 61 厘米" },
   ],
   ja: [
-    { title: "無題 I", date: "2025", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
-    { title: "無題 II", date: "2025", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
-    { title: "無題 III", date: "2025", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
-    { title: "無題 IV", date: "2025", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
-    { title: "無題 V", date: "2025", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
-    { title: "無題 VI", date: "2025", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
-    { title: "無題 VIII", date: "2025", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
+    { title: "無題 I", date: "2026", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
+    { title: "無題 II", date: "2026", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
+    { title: "無題 III", date: "2026", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
+    { title: "無題 IV", date: "2026", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
+    { title: "無題 V", date: "2026", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
+    { title: "無題 VI", date: "2026", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
+    { title: "無題 VIII", date: "2026", medium: "紙にペンプロッタードローイング", dimensions: "45.7 × 61 cm" },
   ],
 };
 
 const paintingCaptions: Record<Lang, Array<{ title: string; date: string; medium: string; dimensions: string }>> = {
   en: [
-    { title: "Untitled I", date: "2024", medium: "Oil on canvas", dimensions: "36 × 48 in." },
-    { title: "Untitled II", date: "2024", medium: "Oil on canvas", dimensions: "36 × 48 in." },
-    { title: "Untitled III", date: "2024", medium: "Oil on canvas", dimensions: "24 × 30 in." },
-    { title: "Untitled IV", date: "2024", medium: "Oil on canvas", dimensions: "36 × 48 in." },
-    { title: "Untitled V", date: "2024", medium: "Oil on canvas", dimensions: "36 × 48 in." },
+    { title: "Untitled I", date: "2026", medium: "Ink, acrylics, inkjet transfers, enamel, pencil on paper", dimensions: "213 × 328 cm" },
+    { title: "Untitled II", date: "2026", medium: "Ink, acrylics, inkjet transfers, enamel, pencil on paper", dimensions: "213 × 328 cm" },
+    { title: "Untitled III", date: "2026", medium: "Ink, acrylics, inkjet transfers, enamel, pencil on paper", dimensions: "213 × 328 cm" },
+    { title: "Untitled IV", date: "2026", medium: "Ink, acrylics, inkjet transfers, enamel, pencil on paper", dimensions: "213 × 328 cm" },
+    { title: "Untitled V", date: "2026", medium: "Ink, acrylics, inkjet transfers, enamel, pencil on paper", dimensions: "213 × 328 cm" },
   ],
   de: [
-    { title: "Ohne Titel I", date: "2024", medium: "Öl auf Leinwand", dimensions: "91,4 × 121,9 cm" },
-    { title: "Ohne Titel II", date: "2024", medium: "Öl auf Leinwand", dimensions: "91,4 × 121,9 cm" },
-    { title: "Ohne Titel III", date: "2024", medium: "Öl auf Leinwand", dimensions: "61 × 76,2 cm" },
-    { title: "Ohne Titel IV", date: "2024", medium: "Öl auf Leinwand", dimensions: "91,4 × 121,9 cm" },
-    { title: "Ohne Titel V", date: "2024", medium: "Öl auf Leinwand", dimensions: "91,4 × 121,9 cm" },
+    { title: "Ohne Titel I", date: "2026", medium: "Tinte, Acryl, Tintenstrahl-Transfers, Emaille, Bleistift auf Papier", dimensions: "213 × 328 cm" },
+    { title: "Ohne Titel II", date: "2026", medium: "Tinte, Acryl, Tintenstrahl-Transfers, Emaille, Bleistift auf Papier", dimensions: "213 × 328 cm" },
+    { title: "Ohne Titel III", date: "2026", medium: "Tinte, Acryl, Tintenstrahl-Transfers, Emaille, Bleistift auf Papier", dimensions: "213 × 328 cm" },
+    { title: "Ohne Titel IV", date: "2026", medium: "Tinte, Acryl, Tintenstrahl-Transfers, Emaille, Bleistift auf Papier", dimensions: "213 × 328 cm" },
+    { title: "Ohne Titel V", date: "2026", medium: "Tinte, Acryl, Tintenstrahl-Transfers, Emaille, Bleistift auf Papier", dimensions: "213 × 328 cm" },
   ],
   fr: [
-    { title: "Sans titre I", date: "2024", medium: "Huile sur toile", dimensions: "91,4 × 121,9 cm" },
-    { title: "Sans titre II", date: "2024", medium: "Huile sur toile", dimensions: "91,4 × 121,9 cm" },
-    { title: "Sans titre III", date: "2024", medium: "Huile sur toile", dimensions: "61 × 76,2 cm" },
-    { title: "Sans titre IV", date: "2024", medium: "Huile sur toile", dimensions: "91,4 × 121,9 cm" },
-    { title: "Sans titre V", date: "2024", medium: "Huile sur toile", dimensions: "91,4 × 121,9 cm" },
+    { title: "Sans titre I", date: "2026", medium: "Encre, acryliques, transferts jet d'encre, émail, crayon sur papier", dimensions: "213 × 328 cm" },
+    { title: "Sans titre II", date: "2026", medium: "Encre, acryliques, transferts jet d'encre, émail, crayon sur papier", dimensions: "213 × 328 cm" },
+    { title: "Sans titre III", date: "2026", medium: "Encre, acryliques, transferts jet d'encre, émail, crayon sur papier", dimensions: "213 × 328 cm" },
+    { title: "Sans titre IV", date: "2026", medium: "Encre, acryliques, transferts jet d'encre, émail, crayon sur papier", dimensions: "213 × 328 cm" },
+    { title: "Sans titre V", date: "2026", medium: "Encre, acryliques, transferts jet d'encre, émail, crayon sur papier", dimensions: "213 × 328 cm" },
   ],
   ko: [
-    { title: "무제 I", date: "2024", medium: "캔버스에 유채", dimensions: "91.4 × 121.9 cm" },
-    { title: "무제 II", date: "2024", medium: "캔버스에 유채", dimensions: "91.4 × 121.9 cm" },
-    { title: "무제 III", date: "2024", medium: "캔버스에 유채", dimensions: "61 × 76.2 cm" },
-    { title: "무제 IV", date: "2024", medium: "캔버스에 유채", dimensions: "91.4 × 121.9 cm" },
-    { title: "무제 V", date: "2024", medium: "캔버스에 유채", dimensions: "91.4 × 121.9 cm" },
+    { title: "무제 I", date: "2026", medium: "잉크, 아크릴, 잉크젯 전사, 에나멜, 종이 위에 연필", dimensions: "213 × 328 cm" },
+    { title: "무제 II", date: "2026", medium: "잉크, 아크릴, 잉크젯 전사, 에나멜, 종이 위에 연필", dimensions: "213 × 328 cm" },
+    { title: "무제 III", date: "2026", medium: "잉크, 아크릴, 잉크젯 전사, 에나멜, 종이 위에 연필", dimensions: "213 × 328 cm" },
+    { title: "무제 IV", date: "2026", medium: "잉크, 아크릴, 잉크젯 전사, 에나멜, 종이 위에 연필", dimensions: "213 × 328 cm" },
+    { title: "무제 V", date: "2026", medium: "잉크, 아크릴, 잉크젯 전사, 에나멜, 종이 위에 연필", dimensions: "213 × 328 cm" },
   ],
   id: [
-    { title: "Tanpa Judul I", date: "2024", medium: "Minyak di atas kanvas", dimensions: "91,4 × 121,9 cm" },
-    { title: "Tanpa Judul II", date: "2024", medium: "Minyak di atas kanvas", dimensions: "91,4 × 121,9 cm" },
-    { title: "Tanpa Judul III", date: "2024", medium: "Minyak di atas kanvas", dimensions: "61 × 76,2 cm" },
-    { title: "Tanpa Judul IV", date: "2024", medium: "Minyak di atas kanvas", dimensions: "91,4 × 121,9 cm" },
-    { title: "Tanpa Judul V", date: "2024", medium: "Minyak di atas kanvas", dimensions: "91,4 × 121,9 cm" },
+    { title: "Tanpa Judul I", date: "2026", medium: "Tinta, akrilik, transfer inkjet, enamel, pensil di atas kertas", dimensions: "213 × 328 cm" },
+    { title: "Tanpa Judul II", date: "2026", medium: "Tinta, akrilik, transfer inkjet, enamel, pensil di atas kertas", dimensions: "213 × 328 cm" },
+    { title: "Tanpa Judul III", date: "2026", medium: "Tinta, akrilik, transfer inkjet, enamel, pensil di atas kertas", dimensions: "213 × 328 cm" },
+    { title: "Tanpa Judul IV", date: "2026", medium: "Tinta, akrilik, transfer inkjet, enamel, pensil di atas kertas", dimensions: "213 × 328 cm" },
+    { title: "Tanpa Judul V", date: "2026", medium: "Tinta, akrilik, transfer inkjet, enamel, pensil di atas kertas", dimensions: "213 × 328 cm" },
   ],
   zh: [
-    { title: "无题 I", date: "2024", medium: "布面油画", dimensions: "91.4 × 121.9 厘米" },
-    { title: "无题 II", date: "2024", medium: "布面油画", dimensions: "91.4 × 121.9 厘米" },
-    { title: "无题 III", date: "2024", medium: "布面油画", dimensions: "61 × 76.2 厘米" },
-    { title: "无题 IV", date: "2024", medium: "布面油画", dimensions: "91.4 × 121.9 厘米" },
-    { title: "无题 V", date: "2024", medium: "布面油画", dimensions: "91.4 × 121.9 厘米" },
+    { title: "无题 I", date: "2026", medium: "墨水、丙烯、喷墨转印、搪瓷、纸上铅笔", dimensions: "213 × 328 厘米" },
+    { title: "无题 II", date: "2026", medium: "墨水、丙烯、喷墨转印、搪瓷、纸上铅笔", dimensions: "213 × 328 厘米" },
+    { title: "无题 III", date: "2026", medium: "墨水、丙烯、喷墨转印、搪瓷、纸上铅笔", dimensions: "213 × 328 厘米" },
+    { title: "无题 IV", date: "2026", medium: "墨水、丙烯、喷墨转印、搪瓷、纸上铅笔", dimensions: "213 × 328 厘米" },
+    { title: "无题 V", date: "2026", medium: "墨水、丙烯、喷墨转印、搪瓷、纸上铅笔", dimensions: "213 × 328 厘米" },
   ],
   ja: [
-    { title: "無題 I", date: "2024", medium: "キャンバスに油彩", dimensions: "91.4 × 121.9 cm" },
-    { title: "無題 II", date: "2024", medium: "キャンバスに油彩", dimensions: "91.4 × 121.9 cm" },
-    { title: "無題 III", date: "2024", medium: "キャンバスに油彩", dimensions: "61 × 76.2 cm" },
-    { title: "無題 IV", date: "2024", medium: "キャンバスに油彩", dimensions: "91.4 × 121.9 cm" },
-    { title: "無題 V", date: "2024", medium: "キャンバスに油彩", dimensions: "91.4 × 121.9 cm" },
+    { title: "無題 I", date: "2026", medium: "インク、アクリル、インクジェット転写、エナメル、紙に鉛筆", dimensions: "213 × 328 cm" },
+    { title: "無題 II", date: "2026", medium: "インク、アクリル、インクジェット転写、エナメル、紙に鉛筆", dimensions: "213 × 328 cm" },
+    { title: "無題 III", date: "2026", medium: "インク、アクリル、インクジェット転写、エナメル、紙に鉛筆", dimensions: "213 × 328 cm" },
+    { title: "無題 IV", date: "2026", medium: "インク、アクリル、インクジェット転写、エナメル、紙に鉛筆", dimensions: "213 × 328 cm" },
+    { title: "無題 V", date: "2026", medium: "インク、アクリル、インクジェット転写、エナメル、紙に鉛筆", dimensions: "213 × 328 cm" },
   ],
 };
 
 const paintingTranslations: Record<Lang, { aboutP1: string; aboutP2: string; aboutP3: string }> = {
   en: {
-    aboutP1: "These paintings emerge from a sustained engagement with color, surface, and the physicality of oil paint. Each canvas builds through layered applications, allowing pigment and medium to interact across successive sessions in the studio.",
-    aboutP2: "The works navigate between figuration and abstraction, drawing on both observational impulses and the material logic of the painting process itself. Gesture, erasure, and accumulation converge to produce surfaces that hold traces of their own making.",
-    aboutP3: "Produced in 2024 at the Rhode Island School of Design, these paintings reflect an ongoing investigation into the expressive potential of traditional media within a contemporary practice.",
+    aboutP1: "For the past few months, I have been really excited about using technologies that were used to make digital art in the 1960s, coupled with CNC machines, reprogrammed plotters, and an industrial inkjet printer originally designed for labeling shipping crates.",
+    aboutP2: "This piece is a byproduct of trying to fuse analog painting and digital media processes, picturing the feeling of being stuck in a liminal, aporetic environment situated between physical and digital realities.",
+    aboutP3: "",
   },
   de: {
-    aboutP1: "Diese Gemälde entstehen aus einer intensiven Auseinandersetzung mit Farbe, Oberfläche und der Materialität der Ölfarbe. Jede Leinwand baut sich durch schichtweise Aufträge auf, wobei Pigment und Medium über aufeinanderfolgende Sitzungen im Atelier interagieren.",
-    aboutP2: "Die Werke bewegen sich zwischen Figuration und Abstraktion und greifen sowohl auf beobachtende Impulse als auch auf die materielle Logik des Malprozesses selbst zurück. Geste, Löschung und Akkumulation konvergieren zu Oberflächen, die Spuren ihrer eigenen Entstehung bewahren.",
-    aboutP3: "Entstanden 2024 an der Rhode Island School of Design, spiegeln diese Gemälde eine laufende Untersuchung des expressiven Potenzials traditioneller Medien innerhalb einer zeitgenössischen Praxis wider.",
+    aboutP1: "In den letzten Monaten war ich sehr begeistert davon, Technologien zu nutzen, die in den 1960er Jahren zur Herstellung digitaler Kunst verwendet wurden, kombiniert mit CNC-Maschinen, umprogrammierten Plottern und einem industriellen Tintenstrahldrucker, der ursprünglich für die Beschriftung von Versandkisten konzipiert war.",
+    aboutP2: "Dieses Werk ist ein Nebenprodukt des Versuchs, analoge Malerei und digitale Medienprozesse zu verschmelzen und das Gefühl darzustellen, in einer liminalen, aporetischen Umgebung zwischen physischer und digitaler Realität gefangen zu sein.",
+    aboutP3: "",
   },
   fr: {
-    aboutP1: "Ces peintures naissent d'un engagement soutenu avec la couleur, la surface et la matérialité de la peinture à l'huile. Chaque toile se construit par des applications superposées, permettant au pigment et au médium d'interagir au fil des sessions successives en atelier.",
-    aboutP2: "Les œuvres naviguent entre figuration et abstraction, puisant à la fois dans des impulsions observationnelles et dans la logique matérielle du processus pictural lui-même. Le geste, l'effacement et l'accumulation convergent pour produire des surfaces qui conservent les traces de leur propre fabrication.",
-    aboutP3: "Produites en 2024 à la Rhode Island School of Design, ces peintures reflètent une investigation en cours sur le potentiel expressif des médias traditionnels au sein d'une pratique contemporaine.",
+    aboutP1: "Au cours des derniers mois, j'ai été très enthousiaste à l'idée d'utiliser des technologies qui servaient à créer de l'art numérique dans les années 1960, associées à des machines CNC, des traceurs reprogrammés et une imprimante à jet d'encre industrielle conçue à l'origine pour l'étiquetage de caisses d'expédition.",
+    aboutP2: "Cette pièce est un sous-produit de la tentative de fusionner les processus de peinture analogique et de médias numériques, illustrant le sentiment d'être coincé dans un environnement liminal et aporétique situé entre les réalités physiques et numériques.",
+    aboutP3: "",
   },
   ko: {
-    aboutP1: "이 회화 작품들은 색채, 표면, 그리고 유화 물감의 물질성에 대한 지속적인 탐구에서 비롯됩니다. 각 캔버스는 층층이 쌓인 도포를 통해 구축되며, 스튜디오에서의 연속적인 작업 세션에 걸쳐 안료와 매체가 상호작용합니다.",
-    aboutP2: "이 작품들은 구상과 추상 사이를 오가며, 관찰적 충동과 회화 과정 자체의 물질적 논리 모두를 활용합니다. 제스처, 지우기, 축적이 수렴하여 자신의 제작 흔적을 간직한 표면을 만들어냅니다.",
-    aboutP3: "2024년 로드 아일랜드 디자인 스쿨에서 제작된 이 회화들은 동시대 실천 속에서 전통 매체의 표현적 잠재력에 대한 지속적인 탐구를 반영합니다.",
+    aboutP1: "지난 몇 달간 저는 1960년대에 디지털 아트를 만드는 데 사용되었던 기술들을 CNC 기계, 재프로그래밍된 플로터, 그리고 원래 배송 상자 라벨링용으로 설계된 산업용 잉크젯 프린터와 결합하여 사용하는 것에 큰 열정을 느끼고 있습니다.",
+    aboutP2: "이 작품은 아날로그 회화와 디지털 미디어 프로세스를 융합하려는 시도의 부산물로, 물리적 현실과 디지털 현실 사이에 위치한 리미널하고 아포레틱한 환경에 갇혀 있는 느낌을 그리고 있습니다.",
+    aboutP3: "",
   },
   id: {
-    aboutP1: "Lukisan-lukisan ini lahir dari keterlibatan berkelanjutan dengan warna, permukaan, dan fisikalitas cat minyak. Setiap kanvas dibangun melalui aplikasi berlapis, memungkinkan pigmen dan medium berinteraksi sepanjang sesi berturut-turut di studio.",
-    aboutP2: "Karya-karya ini bernavigasi antara figurasi dan abstraksi, mengambil dari impuls observasional dan logika material dari proses melukis itu sendiri. Gestur, penghapusan, dan akumulasi bertemu untuk menghasilkan permukaan yang menyimpan jejak pembuatannya sendiri.",
-    aboutP3: "Diproduksi pada tahun 2024 di Rhode Island School of Design, lukisan-lukisan ini mencerminkan investigasi berkelanjutan terhadap potensi ekspresif media tradisional dalam praktik kontemporer.",
+    aboutP1: "Selama beberapa bulan terakhir, saya sangat antusias menggunakan teknologi yang digunakan untuk membuat seni digital pada tahun 1960-an, dipadukan dengan mesin CNC, plotter yang diprogram ulang, dan printer inkjet industri yang awalnya dirancang untuk pelabelan peti pengiriman.",
+    aboutP2: "Karya ini merupakan hasil sampingan dari upaya menggabungkan proses lukisan analog dan media digital, menggambarkan perasaan terjebak dalam lingkungan liminal dan aporetik yang berada di antara realitas fisik dan digital.",
+    aboutP3: "",
   },
   zh: {
-    aboutP1: "这些绘画源于对色彩、表面和油画颜料物质性的持续探索。每幅画布通过层层叠加的方式构建，让颜料和介质在工作室的连续创作过程中相互作用。",
-    aboutP2: "这些作品在具象与抽象之间游走，既汲取观察性的冲动，也遵循绘画过程本身的物质逻辑。笔触、擦除和积累交汇，产生保留着自身创作痕迹的表面。",
-    aboutP3: "这些绘画于2024年在罗德岛设计学院创作，反映了在当代实践中对传统媒介表现潜力的持续探索。",
+    aboutP1: "在过去几个月里，我一直非常兴奋地使用1960年代制作数字艺术的技术，结合CNC机器、重新编程的绘图仪，以及一台最初为运输箱标签设计的工业喷墨打印机。",
+    aboutP2: "这件作品是尝试将模拟绘画和数字媒体过程融合的副产品，描绘了一种被困在物理现实和数字现实之间的阈限、困境般环境中的感觉。",
+    aboutP3: "",
   },
   ja: {
-    aboutP1: "これらの絵画は、色彩、表面、そして油絵具の物質性との持続的な関わりから生まれています。各キャンバスは重ねられた塗布を通じて構築され、スタジオでの連続したセッションを通じて顔料と媒体が相互作用します。",
-    aboutP2: "これらの作品は具象と抽象の間を行き来し、観察的な衝動と絵画プロセス自体の物質的論理の両方を活用しています。ジェスチャー、消去、蓄積が収束し、自らの制作の痕跡を留める表面を生み出します。",
-    aboutP3: "2024年にロードアイランド・スクール・オブ・デザインで制作されたこれらの絵画は、現代的な実践における伝統的メディアの表現的可能性に関する継続的な調査を反映しています。",
+    aboutP1: "ここ数ヶ月、1960年代にデジタルアートの制作に使われた技術を、CNCマシン、再プログラムされたプロッター、そして元々配送用木箱のラベリング用に設計された産業用インクジェットプリンターと組み合わせて使うことに大きな興奮を覚えています。",
+    aboutP2: "この作品は、アナログの絵画とデジタルメディアのプロセスを融合しようとする試みの副産物であり、物理的現実とデジタル現実の間に位置するリミナルでアポリア的な環境に閉じ込められている感覚を描いています。",
+    aboutP3: "",
   },
 };
 
@@ -233,9 +233,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "No press coverage yet.",
     shopText: "Prints available upon request. Contact for pricing and availability.",
     comingSoon: "Gallery content coming soon.",
-    aboutP1: "This series of plotter drawings explores the intersection of computational logic and hand-drawn aesthetics. Using a custom-built pen plotter, each work translates algorithmic processes into physical mark-making on paper, blurring the boundary between human gesture and machine precision.",
-    aboutP2: "The drawings are generated through iterative code — each pass of the pen responding to parameters of density, rhythm, and spatial distribution. The resulting compositions oscillate between order and chaos, reflecting the tension between programmed instruction and material unpredictability.",
-    aboutP3: "Produced between 2025 and 2026 as part of an ongoing investigation into computational drawing practices at the Rhode Island School of Design, these works sit at the nexus of art, design, and technology.",
+    aboutP1: "During the fall of 2025, I started working with an AxiDraw pen plotter, trying to work around combining and integrate digital computational technologies into my more traditional drawing practice.",
+    aboutP2: "The series of drawings here are a product of me testing and experimenting with varied methods and ways of mark-making and tooling, creating custom fountain pen attachments and reprogramming the plotter to access more variables of control.",
+    aboutP3: "",
   },
   de: {
     works: "Werke",
@@ -245,9 +245,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "Noch keine Presseberichterstattung.",
     shopText: "Drucke auf Anfrage erhältlich. Kontaktieren Sie uns für Preise und Verfügbarkeit.",
     comingSoon: "Galerieinhalt kommt bald.",
-    aboutP1: "Diese Serie von Plotterzeichnungen erforscht die Schnittstelle zwischen Rechenlogik und handgezeichneter Ästhetik. Mit einem selbstgebauten Stiftplotter übersetzt jedes Werk algorithmische Prozesse in physische Markierungen auf Papier und verwischt die Grenze zwischen menschlicher Geste und maschineller Präzision.",
-    aboutP2: "Die Zeichnungen werden durch iterativen Code erzeugt — jeder Stiftdurchgang reagiert auf Parameter von Dichte, Rhythmus und räumlicher Verteilung. Die resultierenden Kompositionen oszillieren zwischen Ordnung und Chaos und spiegeln die Spannung zwischen programmierter Anweisung und materieller Unvorhersehbarkeit wider.",
-    aboutP3: "Entstanden zwischen 2025 und 2026 im Rahmen einer laufenden Untersuchung computergestützter Zeichenpraktiken an der Rhode Island School of Design, befinden sich diese Werke an der Schnittstelle von Kunst, Design und Technologie.",
+    aboutP1: "Im Herbst 2025 begann ich mit einem AxiDraw-Stiftplotter zu arbeiten und versuchte, digitale Computertechnologien in meine eher traditionelle Zeichenpraxis zu integrieren.",
+    aboutP2: "Die hier gezeigten Zeichnungen sind das Ergebnis meiner Experimente mit verschiedenen Methoden und Arten des Markierens und Werkzeugeinsatzes, der Herstellung individueller Füllfederhalter-Aufsätze und der Neuprogrammierung des Plotters, um mehr Kontrollvariablen nutzen zu können.",
+    aboutP3: "",
   },
   fr: {
     works: "Œuvres",
@@ -257,9 +257,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "Pas encore de couverture presse.",
     shopText: "Tirages disponibles sur demande. Contactez-nous pour les prix et la disponibilité.",
     comingSoon: "Contenu de la galerie à venir.",
-    aboutP1: "Cette série de dessins au traceur explore l'intersection entre la logique computationnelle et l'esthétique du dessin à la main. À l'aide d'un traceur à plume construit sur mesure, chaque œuvre traduit des processus algorithmiques en marques physiques sur papier, brouillant la frontière entre le geste humain et la précision mécanique.",
-    aboutP2: "Les dessins sont générés par un code itératif — chaque passage du stylo répondant à des paramètres de densité, de rythme et de distribution spatiale. Les compositions résultantes oscillent entre ordre et chaos, reflétant la tension entre instruction programmée et imprévisibilité matérielle.",
-    aboutP3: "Produites entre 2025 et 2026 dans le cadre d'une investigation en cours sur les pratiques de dessin computationnel à la Rhode Island School of Design, ces œuvres se situent au carrefour de l'art, du design et de la technologie.",
+    aboutP1: "À l'automne 2025, j'ai commencé à travailler avec un traceur à plume AxiDraw, cherchant à combiner et intégrer les technologies numériques computationnelles dans ma pratique de dessin plus traditionnelle.",
+    aboutP2: "La série de dessins présentée ici est le fruit de mes essais et expérimentations avec diverses méthodes et manières de faire des marques et d'outillage, créant des adaptateurs personnalisés pour stylos-plume et reprogrammant le traceur pour accéder à davantage de variables de contrôle.",
+    aboutP3: "",
   },
   ko: {
     works: "작품",
@@ -269,9 +269,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "아직 언론 보도가 없습니다.",
     shopText: "요청 시 프린트 구매 가능합니다. 가격 및 재고 문의는 연락 바랍니다.",
     comingSoon: "갤러리 콘텐츠가 곧 공개됩니다.",
-    aboutP1: "이 펜 플로터 드로잉 시리즈는 컴퓨터 논리와 손으로 그린 미학의 교차점을 탐구합니다. 맞춤 제작한 펜 플로터를 사용하여 각 작품은 알고리즘 프로세스를 종이 위의 물리적 표현으로 변환하며, 인간의 제스처와 기계의 정밀함 사이의 경계를 흐리게 합니다.",
-    aboutP2: "드로잉은 반복적인 코드를 통해 생성됩니다 — 펜의 각 패스는 밀도, 리듬, 공간 분포의 매개변수에 반응합니다. 결과적인 구성은 질서와 혼돈 사이를 오가며, 프로그래밍된 명령과 재료의 예측 불가능성 사이의 긴장을 반영합니다.",
-    aboutP3: "로드 아일랜드 디자인 스쿨에서 진행 중인 컴퓨터 드로잉 실천에 대한 연구의 일환으로 2025년과 2026년 사이에 제작된 이 작품들은 예술, 디자인, 기술의 교차점에 위치합니다.",
+    aboutP1: "2025년 가을, 저는 AxiDraw 펜 플로터로 작업을 시작하며 디지털 컴퓨터 기술을 보다 전통적인 드로잉 실천에 결합하고 통합하려고 시도했습니다.",
+    aboutP2: "여기 있는 드로잉 시리즈는 다양한 방법과 마크 메이킹 및 도구 사용 방식을 시험하고 실험한 결과물로, 맞춤형 만년필 어태치먼트를 제작하고 플로터를 재프로그래밍하여 더 많은 제어 변수에 접근한 것입니다.",
+    aboutP3: "",
   },
   id: {
     works: "Karya",
@@ -281,9 +281,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "Belum ada liputan pers.",
     shopText: "Cetakan tersedia berdasarkan permintaan. Hubungi untuk harga dan ketersediaan.",
     comingSoon: "Konten galeri segera hadir.",
-    aboutP1: "Seri gambar plotter ini mengeksplorasi persimpangan antara logika komputasi dan estetika gambar tangan. Menggunakan pen plotter buatan sendiri, setiap karya menerjemahkan proses algoritmik menjadi tanda fisik di atas kertas, mengaburkan batas antara gestur manusia dan presisi mesin.",
-    aboutP2: "Gambar-gambar ini dihasilkan melalui kode iteratif — setiap lintasan pena merespons parameter kepadatan, ritme, dan distribusi spasial. Komposisi yang dihasilkan berosilasi antara keteraturan dan kekacauan, mencerminkan ketegangan antara instruksi terprogram dan ketidakpastian material.",
-    aboutP3: "Diproduksi antara 2025 dan 2026 sebagai bagian dari investigasi berkelanjutan tentang praktik menggambar komputasional di Rhode Island School of Design, karya-karya ini berada di persimpangan seni, desain, dan teknologi.",
+    aboutP1: "Pada musim gugur 2025, saya mulai bekerja dengan pen plotter AxiDraw, mencoba menggabungkan dan mengintegrasikan teknologi komputasi digital ke dalam praktik menggambar tradisional saya.",
+    aboutP2: "Seri gambar di sini adalah hasil dari pengujian dan eksperimen saya dengan berbagai metode dan cara pembuatan tanda serta perkakas, membuat attachment pena fountain kustom dan memprogram ulang plotter untuk mengakses lebih banyak variabel kontrol.",
+    aboutP3: "",
   },
   zh: {
     works: "作品",
@@ -293,9 +293,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "暂无媒体报道。",
     shopText: "版画可按需购买。请联系了解价格和供应情况。",
     comingSoon: "画廊内容即将推出。",
-    aboutP1: "这一系列绘图仪作品探索了计算逻辑与手绘美学的交叉点。使用定制的笔式绘图仪，每件作品将算法过程转化为纸上的物理标记，模糊了人类姿态与机器精度之间的界限。",
-    aboutP2: "这些绘画通过迭代代码生成——笔的每一次运行都响应密度、节奏和空间分布的参数。由此产生的构图在秩序与混沌之间振荡，反映了编程指令与材料不可预测性之间的张力。",
-    aboutP3: "这些作品于2025年至2026年间创作，是罗德岛设计学院计算绘画实践持续研究的一部分，处于艺术、设计和技术的交汇处。",
+    aboutP1: "2025年秋天，我开始使用AxiDraw笔式绘图仪进行创作，尝试将数字计算技术融合并整合到我较为传统的绘画实践中。",
+    aboutP2: "这里展示的系列绘画是我测试和尝试各种标记制作方法与工具的成果，包括制作定制钢笔附件以及重新编程绘图仪以获取更多控制变量。",
+    aboutP3: "",
   },
   ja: {
     works: "作品",
@@ -305,9 +305,9 @@ const galleryTranslations: Record<Lang, {
     noPress: "プレス報道はまだありません。",
     shopText: "プリントはリクエストに応じてご購入いただけます。価格と在庫についてはお問い合わせください。",
     comingSoon: "ギャラリーコンテンツは近日公開予定です。",
-    aboutP1: "このペンプロッタードローイングシリーズは、計算論理と手描きの美学の交差点を探求しています。カスタムメイドのペンプロッターを使用して、各作品はアルゴリズムのプロセスを紙の上の物理的なマーキングに変換し、人間のジェスチャーと機械の精度の境界を曖昧にします。",
-    aboutP2: "ドローイングは反復的なコードによって生成されます — ペンの各パスは密度、リズム、空間分布のパラメータに応答します。結果として生まれる構成は秩序と混沌の間を揺れ動き、プログラムされた命令と素材の予測不可能性の間の緊張を反映しています。",
-    aboutP3: "ロードアイランド・スクール・オブ・デザインでの計算描画実践に関する継続的な研究の一環として2025年から2026年にかけて制作されたこれらの作品は、アート、デザイン、テクノロジーの交差点に位置しています。",
+    aboutP1: "2025年の秋、私はAxiDrawペンプロッターでの制作を始め、デジタルコンピュテーション技術をより伝統的なドローイングの実践に組み合わせ、統合することを試みました。",
+    aboutP2: "ここに展示されているドローイングシリーズは、さまざまなマークメイキングの方法やツールの使い方を試行錯誤した成果であり、カスタム万年筆アタッチメントの制作やプロッターの再プログラミングによって、より多くの制御変数にアクセスしたものです。",
+    aboutP3: "",
   },
 };
 
@@ -621,27 +621,11 @@ function ExhibitionPage({ lang, images, captions, aboutTexts, processImages, onC
         )}
 
         {activeTab === "press" && (
-          <div style={{ paddingBottom: 20, fontFamily: "var(--site-font)" }}>
-            <p style={{ fontSize: 10, color: "#bbb" }}>
-              {gt.noPress}
-            </p>
-          </div>
+          <div style={{ paddingBottom: 20, fontFamily: "var(--site-font)" }} />
         )}
 
         {activeTab === "shop" && (
-          <div style={{ paddingBottom: 20, fontFamily: "var(--site-font)" }}>
-            <p style={{ fontSize: 10, color: "#666", lineHeight: 1.8 }}>
-              Prices available upon request.
-            </p>
-            <p style={{ fontSize: 10, color: "#999", lineHeight: 1.8, marginTop: 8 }}>
-              <a href="mailto:reid@reidsurmeier.com" style={{ color: "#666", textDecoration: "none", borderBottom: "1px solid #ddd" }}>reid@reidsurmeier.com</a>
-            </p>
-            {onContact && (
-              <p style={{ fontSize: 10, color: "#999", lineHeight: 1.8, marginTop: 4 }}>
-                <span onClick={onContact} style={{ color: "#666", textDecoration: "none", borderBottom: "1px solid #ddd", cursor: "none" }}>Contact form</span>
-              </p>
-            )}
-          </div>
+          <div style={{ paddingBottom: 20, fontFamily: "var(--site-font)" }} />
         )}
       </div>
 
@@ -889,12 +873,12 @@ interface WritingEntry {
 
 const writingEntries: WritingEntry[] = [
   { title: "You Owe Me", author: "Reid Surmeier", year: "2026", category: "Essay", cover: "/img/overview/HRF_TXT_01_Vorwort.jpg", pdf: "/You Owe Me.pdf", pages: 12 },
-  { title: "Vorwort", author: "Markus Landert & Ute Christiane Hoefert", year: "2025", category: "Foreword", cover: "/img/overview/HRF_TXT_01_Vorwort.jpg", pdf: "/HRF_TXT_01_Vorwort.pdf", pages: 2 },
-  { title: "Der Konzeptkünstler H. R. Fricker", author: "Markus Landert", year: "2025", category: "Essay", cover: "/img/overview/HRF_TXT_02_Landert-b.jpg", pages: 8 },
-  { title: "H. R. Fricker und der Social-Network-Aspekt in der Mail Art", author: "Kornelia Röder", year: "2025", category: "Essay", cover: "/img/overview/HRF_TXT_03_Roeder.jpg", pages: 4 },
-  { title: "Angler, Anzettler, Aggressor", author: "Ursula Badrutt", year: "2025", category: "Essay", cover: "/img/overview/HRF_TXT_04_Badrutt.jpg", pages: 3 },
-  { title: "Im Gespräch mit H. R. Fricker", author: "Matthias Kuhn", year: "2025", category: "Interview", cover: "/img/overview/HRF_TXT_06_Kuhn.jpg", pages: 6 },
-  { title: "Final Press Release", author: "Reid Surmeier", year: "2026", category: "Press", cover: "/img/overview/HRF_TXT_07_Anhang.jpg", pdf: "/FinalReidSurmeierpressrealease.pdf", pages: 1 },
+  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_01_Vorwort.jpg", pages: 0 },
+  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_02_Landert-b.jpg", pages: 0 },
+  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_03_Roeder.jpg", pages: 0 },
+  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_04_Badrutt.jpg", pages: 0 },
+  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_06_Kuhn.jpg", pages: 0 },
+  { title: "Placeholder", author: "", year: "", category: "", cover: "/img/overview/HRF_TXT_07_Anhang.jpg", pages: 0 },
 ];
 
 const writingCategories = ["Essay", "Foreword", "Interview", "Press"] as const;
@@ -912,17 +896,27 @@ interface LectureEntry {
 }
 
 const lectureEntries: LectureEntry[] = [
-  { title: "Computational Drawing Practices", institution: "Rhode Island School of Design", year: "2026", category: "Lecture", cover: "/Plotter_1.png", description: "Guest lecture on algorithmic mark-making and pen plotter systems." },
-  { title: "Digital Fabrication Studio", institution: "RISD Industrial Design", year: "2025–2026", category: "Teaching", cover: "/plotter_2.png", description: "Teaching assistant for digital fabrication methods." },
-  { title: "Introduction to Web Technologies", institution: "RISD Graphic Design", year: "2025", category: "Teaching", cover: "/plotter_4.jpg", description: "Workshop on HTML, CSS, and JavaScript for designers." },
-  { title: "Art, Design & the Algorithm", institution: "RISD Liberal Arts", year: "2025", category: "Lecture", cover: "/plotter_5.jpg", description: "Interdisciplinary lecture on generative systems in contemporary art." },
-  { title: "Plotter Drawing: Process & Output", institution: "RISD Printmaking", year: "2026", category: "Workshop", cover: "/plotter_6.jpg", description: "Hands-on workshop introducing pen plotters as printmaking tools." },
+  { title: "Placeholder", institution: "", year: "", category: "Keynote", cover: "/Plotter_1.png" },
+  { title: "Placeholder", institution: "", year: "", category: "Keynote", cover: "/plotter_2.png" },
+  { title: "Placeholder", institution: "", year: "", category: "Workshop", cover: "/plotter_4.jpg" },
+  { title: "Placeholder", institution: "", year: "", category: "Workshop", cover: "/plotter_5.jpg" },
+  { title: "Placeholder", institution: "", year: "", category: "Workshop", cover: "/plotter_6.jpg" },
 ];
 
-const lectureCategories = ["Lecture", "Teaching", "Workshop"] as const;
+const lectureCategories = ["Keynote", "Workshop"] as const;
+
+const writingCategoryTranslations: Record<Lang, Record<string, string>> = {
+  en: { All: "All", Essay: "Essay", Foreword: "Foreword", Interview: "Interview", Press: "Press" },
+  de: { All: "Alle", Essay: "Essay", Foreword: "Vorwort", Interview: "Interview", Press: "Presse" },
+  fr: { All: "Tout", Essay: "Essai", Foreword: "Avant-propos", Interview: "Entretien", Press: "Presse" },
+  ko: { All: "\uBAA8\uB450", Essay: "\uC5D0\uC138\uC774", Foreword: "\uC11C\uBB38", Interview: "\uC778\uD130\uBDF0", Press: "\uC5B8\uB860" },
+  id: { All: "Semua", Essay: "Esai", Foreword: "Kata Pengantar", Interview: "Wawancara", Press: "Pers" },
+  zh: { All: "\u5168\u90E8", Essay: "\u6587\u7AE0", Foreword: "\u524D\u8A00", Interview: "\u8BBF\u8C08", Press: "\u5A92\u4F53" },
+  ja: { All: "\u3059\u3079\u3066", Essay: "\u30A8\u30C3\u30BB\u30A4", Foreword: "\u5E8F\u6587", Interview: "\u30A4\u30F3\u30BF\u30D3\u30E5\u30FC", Press: "\u30D7\u30EC\u30B9" },
+};
 
 function WritingLibrary({ lang }: { lang: Lang }) {
-  void lang;
+  const catT = writingCategoryTranslations[lang];
   const [filter, setFilter] = useState<string | null>(null);
   const [openPdf, setOpenPdf] = useState<{ url: string; title: string; author: string; year: string; cover: string; category: string } | null>(null);
   const [pdfVisible, setPdfVisible] = useState(false);
@@ -1004,9 +998,6 @@ function WritingLibrary({ lang }: { lang: Lang }) {
         }
       `}</style>
 
-      {/* Divider */}
-      <div style={{ borderBottom: "1px solid #eee", marginBottom: 14 }} />
-
       {/* Filter row */}
       <div style={{
         display: "flex",
@@ -1027,7 +1018,7 @@ function WritingLibrary({ lang }: { lang: Lang }) {
             paddingBottom: 3,
           }}
         >
-          All ({writingEntries.length})
+          {catT.All} ({writingEntries.length})
         </button>
         {writingCategories.map((cat) => {
           const count = writingEntries.filter((e) => e.category === cat).length;
@@ -1047,7 +1038,7 @@ function WritingLibrary({ lang }: { lang: Lang }) {
                 paddingBottom: 3,
               }}
             >
-              {cat} ({count})
+              {catT[cat] || cat} ({count})
             </button>
           );
         })}
@@ -1196,8 +1187,18 @@ function WritingLibrary({ lang }: { lang: Lang }) {
   );
 }
 
+const lectureCategoryTranslations: Record<Lang, Record<string, string>> = {
+  en: { All: "All", Keynote: "Keynote", Workshop: "Workshop" },
+  de: { All: "Alle", Keynote: "Keynote", Workshop: "Workshop" },
+  fr: { All: "Tout", Keynote: "Conf\u00E9rence", Workshop: "Atelier" },
+  ko: { All: "\uBAA8\uB450", Keynote: "\uAE30\uC870\uC5F0\uC124", Workshop: "\uC6CC\uD06C\uC20D" },
+  id: { All: "Semua", Keynote: "Keynote", Workshop: "Lokakarya" },
+  zh: { All: "\u5168\u90E8", Keynote: "\u4E3B\u9898\u6F14\u8BB2", Workshop: "\u5DE5\u4F5C\u574A" },
+  ja: { All: "\u3059\u3079\u3066", Keynote: "\u57FA\u8ABF\u8B1B\u6F14", Workshop: "\u30EF\u30FC\u30AF\u30B7\u30E7\u30C3\u30D7" },
+};
+
 function LecturesLibrary({ lang }: { lang: Lang }) {
-  void lang;
+  const lecCatT = lectureCategoryTranslations[lang];
   const [filter, setFilter] = useState<string | null>(null);
   const [openEntry, setOpenEntry] = useState<LectureEntry | null>(null);
   const [detailVisible, setDetailVisible] = useState(false);
@@ -1273,9 +1274,6 @@ function LecturesLibrary({ lang }: { lang: Lang }) {
         }
       `}</style>
 
-      {/* Divider */}
-      <div style={{ borderBottom: "1px solid #eee", marginBottom: 14 }} />
-
       {/* Filter row */}
       <div style={{
         display: "flex",
@@ -1296,7 +1294,7 @@ function LecturesLibrary({ lang }: { lang: Lang }) {
             paddingBottom: 3,
           }}
         >
-          All ({lectureEntries.length})
+          {lecCatT.All} ({lectureEntries.length})
         </button>
         {lectureCategories.map((cat) => {
           const count = lectureEntries.filter((e) => e.category === cat).length;
@@ -1316,7 +1314,7 @@ function LecturesLibrary({ lang }: { lang: Lang }) {
                 paddingBottom: 3,
               }}
             >
-              {cat} ({count})
+              {lecCatT[cat] || cat} ({count})
             </button>
           );
         })}
@@ -2072,7 +2070,8 @@ export default function GalleryPage({
   onContact?: () => void;
 }) {
   void onClose;
-  const [loaderDone, setLoaderDone] = useState(false);
+  const skipLoader = inputLabel === "Input_008" || inputLabel === "Input_010" || inputLabel === "Input_012" || inputLabel === "Input_015";
+  const [loaderDone, setLoaderDone] = useState(skipLoader);
   const [contentVisible, setContentVisible] = useState(false);
   useEffect(() => {
     const t = setTimeout(() => setContentVisible(true), 300);
@@ -2149,7 +2148,7 @@ export default function GalleryPage({
       {!loaderDone && (
         <TextScatterLoader
           text={title}
-          amount={isPrints ? 2 : isPainting ? 3 : 6}
+          amount={isPrints ? 2 : isPainting ? 3 : (isWriting || isLectures) ? 3 : 6}
           fontSize={2.5}
           interval={20}
           windowSize={15}
@@ -2188,7 +2187,8 @@ export default function GalleryPage({
           paddingRight: "clamp(40px, 8vw, 160px)",
           overflowY: "auto",
           opacity: contentVisible ? 1 : 0,
-          transition: "opacity 0.8s ease",
+          transform: contentVisible ? "translateY(0)" : "translateY(6px)",
+          transition: "opacity 0.8s ease, transform 0.8s ease",
         }}
       >
         {renderExhibition()}

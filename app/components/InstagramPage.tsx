@@ -32,7 +32,7 @@ export default function InstagramPage({ onClose }: { onClose: () => void }) {
       {!loaderDone && (
         <TextScatterLoader
           text="Instagram"
-          amount={10}
+          amount={3}
           fontSize={2.5}
           interval={20}
           windowSize={9}
